@@ -9,13 +9,13 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file <stats.h> 
+ * @brief <This file is a C source file which includes function definitions and implementation>
  *
- * <Add Extended Description Here>
+ * <Analytics of Array>
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author <Harshitha Panduranga>
+ * @date <July 16 2020>
  *
  */
 
@@ -37,7 +37,37 @@ void main() {
 
   /* Other Variable Declarations Go Here */
   /* Statistics and Printing Functions Go Here */
-
+	print_statistics(test,SIZE);
 }
 
 /* Add other Implementation File Code Here */
+	print_statistics(unisigned char test[], unisigned int size){
+
+	}
+
+	print_array(unisigned char test[], unisigned int SIZE){
+
+	}
+
+	sort_array(unsigned char test[], unisigned int SIZE){
+		
+	}
+
+
+	find_median(unisigned char test[], unisigned int SIZE){
+		
+	}
+
+
+	find_mean(unisigned char test[], unisigned int SIZE){
+		
+	}
+
+	find_maximum(unisigned char test[], unisigned int SIZE){
+		
+	}
+	
+	find_minimum(unisigned char test[], unisigned int SIZE){
+		
+	}
+

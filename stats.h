@@ -9,32 +9,76 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file <stats.h> 
+ * @brief <This file is a header file which includes function declaration>
  *
- * <Add Extended Description Here>
+ * <Analytics of Array>
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author <Harshitha Panduranga>
+ * @date <July 16 2020>
  *
  */
 #ifndef __STATS_H__
 #define __STATS_H__
 
-/* Add Your Declarations and Function Comments here */ 
-
-/**
- * @brief <Add Brief Description of Function Here>
- *
- * <Add Extended Description Here>
- *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- *
- * @return <Add Return Informaiton here>
+/*
+ * @brief A function that prints the statistics of an array including minimum, maximum, mean, and  median.
+ * @param The array dataset
+ * @param The size of the array
+ * @return NULL
  */
 
+void print_statistics(unisigned char array[], unisigned int size);
+ 
+ /**
+ * @brief Given an array of data and a length, prints the array to the screen
+ * @param The array dataset
+ * @param The size of the array
+ * @return NULL
+ */
+void print_array(unisigned char array[], unisigned int size);
+/**
+ * @brief Given an array of data and a length, returns the median value
+ * @param The array dataset
+ * @param The size of the array
+ * @return median value of the array
+ */
+unsigned char find_median(unisigned char array[], unisigned int size);
+    
+ /**
+ * @brief Given an array of data and a length, returns the mean
+ * @param The array dataset
+ * @param The size of the array
+ * @return median of the array
+ */
+unsigned char find_mean(unisigned char array[], unisigned int size);
 
+/**
+ * @brief Given an array of data and a length, returns the maximum
+ * @param The array dataset
+ * @param The size of the array
+ * @return maximum alue of the array
+ */
+ 
+unsigned char find_maximum(unisigned char array[], unisigned int size);
+ 
+ /**
+ * @brief Given an array of data and a length, returns the minimum
+ * @param The array dataset
+ * @param The size of the array
+ * @return minimum alue of the array
+ */
+
+unsigned char find_minimum(unisigned char array[], unisigned int size);
+	
+/**
+ * @brief 	Given an array of data and a length, sorts the array from largest to smallest. 
+ * (The zeroth Element should be the largest value, and the last element (n-1) should be the smallest value. )
+ * @param The array dataset
+ * @param The size of the array
+ * @return NULL
+ */	
+	void sort_array(unsigned char array[], unisigned int size);
+	
 #endif /* __STATS_H__ */
+
