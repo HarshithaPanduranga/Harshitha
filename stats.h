@@ -10,7 +10,7 @@
  *****************************************************************************/
 /**
  * @file <stats.h> 
- * @brief <This file is a header file which includes function declaration>
+ * @brief <This file is a header file which includes function declarations>
  *
  * <Analytics of Array>
  *
@@ -21,14 +21,14 @@
 #ifndef __STATS_H__
 #define __STATS_H__
 
+
 /*
  * @brief A function that prints the statistics of an array including minimum, maximum, mean, and  median.
  * @param The array dataset
  * @param The size of the array
  * @return NULL
  */
-
-void print_statistics(unisigned char array[], unisigned int size);
+    void print_statistics(unsigned char array[], unsigned int size);
  
  /**
  * @brief Given an array of data and a length, prints the array to the screen
@@ -36,14 +36,15 @@ void print_statistics(unisigned char array[], unisigned int size);
  * @param The size of the array
  * @return NULL
  */
-void print_array(unisigned char array[], unisigned int size);
-/**
+	void print_array(unsigned char array[], unsigned int size);
+	
+ /**
  * @brief Given an array of data and a length, returns the median value
  * @param The array dataset
  * @param The size of the array
  * @return median value of the array
  */
-unsigned char find_median(unisigned char array[], unisigned int size);
+    int find_median(unsigned char array[], unsigned int size);
     
  /**
  * @brief Given an array of data and a length, returns the mean
@@ -51,16 +52,16 @@ unsigned char find_median(unisigned char array[], unisigned int size);
  * @param The size of the array
  * @return median of the array
  */
-unsigned char find_mean(unisigned char array[], unisigned int size);
-
-/**
+ 	int find_mean(unsigned char array[], unsigned int size);
+ 
+ /**
  * @brief Given an array of data and a length, returns the maximum
  * @param The array dataset
  * @param The size of the array
  * @return maximum alue of the array
  */
  
-unsigned char find_maximum(unisigned char array[], unisigned int size);
+ 	int find_maximum(unsigned char array[], unsigned int size);
  
  /**
  * @brief Given an array of data and a length, returns the minimum
@@ -69,7 +70,7 @@ unsigned char find_maximum(unisigned char array[], unisigned int size);
  * @return minimum alue of the array
  */
 
-unsigned char find_minimum(unisigned char array[], unisigned int size);
+   int find_minimum(unsigned char array[], unsigned int size);
 	
 /**
  * @brief 	Given an array of data and a length, sorts the array from largest to smallest. 
@@ -78,7 +79,6 @@ unsigned char find_minimum(unisigned char array[], unisigned int size);
  * @param The size of the array
  * @return NULL
  */	
-	void sort_array(unsigned char array[], unisigned int size);
+	void sort_array(unsigned char array[], unsigned int size);
 	
 #endif /* __STATS_H__ */
-
